@@ -1,0 +1,15 @@
+{
+    "Env": {
+        "node": {
+            "port": 8080,
+            "publicDir": "dist"
+        },
+        "database": {
+            "connectionString": "enter the connection string to your mongodb service here."
+        },
+        "AzureAD": {
+            "appId": "enter the application ID for your app that you registered in Azure AD",
+            "identityMetadata": "https://login.microsoftonline.com/ADD YOUR AD TENTANT NAME HERE/v2.0/.well-known/openid-configuration"
+        }
+    }
+}
